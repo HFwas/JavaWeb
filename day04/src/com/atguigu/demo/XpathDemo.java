@@ -18,7 +18,7 @@ public class XpathDemo {
 		//调用selectSingleNode
 		Element element = (Element)document.selectSingleNode("/students/student[@id='3']");
 		
-		String id = element.attributeValue("id");
+		String id = element.attributeValue("id"); 
 		String name = element.elementText("name");
 		String age = element.elementText("age");
 		
