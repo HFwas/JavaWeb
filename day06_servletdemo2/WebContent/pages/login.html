@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="favicon.ico" rel="#">
 <meta charset="UTF-8">
 <title>form空白</title>
+<base href="/day06_servletdemo2/">
 <script type="text/javascript">
 	window.onload = function(){
-		
 		var btnEle = document.getElementById("btnSub");
 		btnEle.onclick = function(){
 			//1.取用户名值
@@ -22,12 +21,11 @@
 		}
 		
 	}
-	
 </script>
 </head>
 <body>
 	<h1>登录</h1>
-	<form action="HelloServlet">
+	<form action="LoginServlet" method="get">
 		<table>
 			<tr>
 				<td>用户名:</td>
@@ -45,6 +43,6 @@
 			</tr>
 		</table>
 	</form>
-	<a href="../index.html">回首页</a>
+	<a href="index.html">回首页</a>
 </body>
 </html>
