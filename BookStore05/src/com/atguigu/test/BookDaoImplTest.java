@@ -12,7 +12,7 @@ import com.atguigu.dao.impl.BookDaoImpl;
 
 class BookDaoImplTest {
 
-	BookDao bookDao = new BookDaoImpl();
+	BookDao bookDao = new BookDaoImpl(); 
 	
 	@Test
 	void testGetAllBooks() {
